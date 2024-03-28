@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="stylep.css" />
+  </head>
+  <body>
+    <div class="cont">
+      <form action="">
+        <h1 class="heading">Payment Form</h1>
+        <hr />
+        <h2>Contact Information</h2>
+        <p>
+          Name:*
+          <input
+            type="text"
+            name="name"
+            required
+            placeholder="Enter Your Name"
+          />
+        </p>
+        <fieldset>
+          <legend>Gender*</legend>
+          <p>
+            Male<input type="radio" name="Gender" id="male" required /> Female
+            <input type="radio" name="Gender" id="Female" required />
+          </p>
+        </fieldset>
+        <p>
+          Address:
+          <textarea
+            name="ads"
+            id="ads"
+            cols="80"
+            rows="8"
+            placeholder="Enter Your Address Here"
+          ></textarea>
+        </p>
+        <p>
+          Email:*
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="example@gmail.com"
+          />
+        </p>
+        <p>
+          Zipcode:*
+          <input
+            type="number"
+            name="zip"
+            id="zip"
+            placeholder="1212"
+            required
+          />
+        </p>
+        <hr />
+        <h2>Card Information</h2>
+        <div class="payment-info">
+          <h3>We accept only</h3>
+          <div class="payment-logo">
+            <div class="img1"><img src="photo/visa.png" alt="" /></div>
+            <div class="img2"><img src="photo/logo.png" alt="" /></div>
+            <div class="img3"><img src="photo/google-pay.png" alt="" /></div>
+          </div>
+        </div>
+        <p>
+          Card Type:*
+          <select name="Card" id="card" required>
+            <option value="">--Select a Card type--</option>
+            <option value="visa">Visa</option>
+            <option value="mst">Mastercard</option>
+            <option value="Gpay">Google Pay</option>
+          </select>
+        </p>
+        <p>
+          Card Number:*
+          <input
+            type="number"
+            name="cno"
+            id="cno"
+            placeholder="1212-1212-1222"
+            required
+          />
+        </p>
+        <p>
+          Expiration Date:*
+          <input type="date" name="cdate" id="cdate" required />
+        </p>
+        <p>
+          CVV:*
+          <input
+            type="password"
+            name="cpass"
+            id="cpass"
+            placeholder="123"
+            required
+          />
+        </p>
+        <input type="submit" value="PAY NOW" />
+      </form>
+    </div>
+  </body>
+</html>

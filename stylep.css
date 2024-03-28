@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 15px 30px;
+  padding: 8px;
+  font-size: 17px;
+}
+.heading {
+  text-align: center;
+}
+
+.cont {
+  background-color: #dad4d4;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+fieldset {
+  background-color: #fff;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+}
+input[type="submit"] {
+  border: none;
+  border-radius: 4px;
+  color: rgb(198, 34, 34);
+  background-color: rgb(14, 180, 240);
+  padding: 12px 20px;
+  width: 100%;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: rgb(38, 108, 200);
+}
+input[type="radio"]
+{
+accent-color: purple;
+}
+
+.payment-logo{
+ 
+  height: 100px;
+  width: 180px;
+  display: flex;
+  overflow: auto;
+ 
+}
+.payment-logo img{
+  height: 50px;
+  width: 50px;
+ margin-right: 10px;
+ 
+}
+
+.payment-info h3 {
+ padding-bottom: 0px; 
+}
